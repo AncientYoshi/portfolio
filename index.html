@@ -516,25 +516,42 @@
               </div>
             </div>
             <div class="right-contact">
-              <form action="" class="contact-form">
+              <form class="contact-form" action="https://formspree.io/f/xayrndql" method="post">
                 <div class="input-control i-c-2">
-                  <input type="text" required placeholder="YOUR NAME" />
-                  <input type="email" required placeholder="YOUR EMAIL" />
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="YOUR NAME"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="YOUR EMAIL"
+                  />
                 </div>
                 <div class="input-control">
-                  <input type="text" required placeholder="ENTER SUBJECT" />
+                  <input
+                    type="text"
+                    name="subject"
+                    required
+                    placeholder="ENTER SUBJECT"
+                  />
                 </div>
                 <div class="input-control">
                   <textarea
-                    name=""
-                    id=""
+                    name="message"
                     cols="15"
                     rows="8"
                     placeholder="Enter Message Here.."
                   ></textarea>
                 </div>
                 <div class="submit-btn">
-                  <a href="" class="main-btn">
+                  <button type="submit" class="main-bto">
+                    <span class="btn-text">Submit</span>
+                  </button>
+                  <a href="cv.pdf" download=file:///home/yoshi/Downloads/pcv.pdf"pcv.pdf" class="main-btn">
                     <span class="btn-text">Download CV</span>
                     <span class="btn-icon"
                       ><i class="fas fa-download"></i
@@ -568,5 +585,6 @@
       <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
+    
   </body>
 </html>
