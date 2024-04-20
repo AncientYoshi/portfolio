@@ -890,6 +890,13 @@ img {
     margin: 0.1rem 1rem;
     padding: 0%;
   }
+  .btn-text {
+    padding-left: 10% !important;
+    /* padding: 0 2rem; */
+    margin-left: auto;
+    overflow: auto;
+    font-size: xx-small;
+  }
 }
 
 @import "./_media.scss";
